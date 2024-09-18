@@ -49,10 +49,13 @@ Make sure you have a Java environment (Java 8) for running PySpark. In Colab, yo
 
 ```bash
 !apt install openjdk-8-jdk-headless -qq
+
 3. **Download the Dataset**
+
 The MovieLens dataset is available online. You can either download it directly or use the provided links in the notebook to fetch the training, test, and movie items data.
 
 4. **Run the code**
+
 After setting up the environment and loading the dataset, run the provided code to train the ALS model and generate recommendations.
 
 
