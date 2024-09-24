@@ -4,6 +4,12 @@
 
 This project implements a movie recommendation system using the Alternating Least Squares (ALS) algorithm in PySpark. The system is based on the MovieLens dataset, which includes 100,000 ratings provided by 1,000 users on 1,700 movies. The ALS algorithm is a matrix factorization technique widely used in collaborative filtering for recommendation systems.
 
+Developed a movie recommendation system using the Alternating Least Squares (ALS) algorithm in PySpark on the Movie Lens dataset with 100,000 ratings from 1,000 users on 1,700 movies.
+-	Achieved an RMSE (Root-Mean-Square Error) of 0.938 on the test dataset using Spark's ALS model.
+-	Processed and trained the model on 80,000 training samples and tested it on 20,000 test samples.
+-	Generated top 5 movie recommendations for all users, optimizing user experience through personalized recommendations.
+
+
 ## Project Structure
 
 The project consists of the following key steps:
