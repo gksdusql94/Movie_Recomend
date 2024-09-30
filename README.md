@@ -120,3 +120,16 @@ After setting up the environment and loading the dataset, run the provided code 
 The system achieved an RMSE of 0.938 on the test dataset.  
 Successfully generated top-5 personalized movie recommendations for all users.  
 The ALS algorithm proves to be an effective method for collaborative filtering in recommendation systems.
+
+```result
++-------+--------------------------------------------------------------------------------------------+
+|user_id|recommendations                                                                             |
++-------+--------------------------------------------------------------------------------------------+
+|1      |[{1449, 4.96}, {127, 4.92}, {1368, 4.92}, {169, 4.88}, {408, 4.88}]                         |
+|2      |[{1643, 5.17}, {1449, 5.07}, {318, 4.89}, {863, 4.89}, {427, 4.84}]                         |
+|3      |[{1643, 5.57}, {641, 5.14}, {199, 4.84}, {320, 4.75}, {1524, 4.59}]                         |
+|4      |[{745, 5.87}, {1005, 5.82}, {1159, 5.78}, {372, 5.76}, {1192, 5.72}]                        |
+|5      |[{50, 4.67}, {1142, 4.61}, {115, 4.60}, {390, 4.58}, {169, 4.55}]                           |
++-------+--------------------------------------------------------------------------------------------+
+
+```
